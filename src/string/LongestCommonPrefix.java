@@ -1,9 +1,15 @@
 package string;
 
 /**
+ * 14. 最长公共前缀
  * 查找字符串数组中的最长公共前缀。
  */
 public class LongestCommonPrefix {
+    /**
+     * 二分查找
+     * @param strs
+     * @return
+     */
     public String longestCommonPrefix(String[] strs) {
         if (strs == null || strs.length == 0) {
             return "";

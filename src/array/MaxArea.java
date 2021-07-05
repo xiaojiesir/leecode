@@ -4,6 +4,11 @@ package array;
  * 11. 盛最多水的容器
  */
 public class MaxArea {
+    /**
+     * 双指针
+     * @param height
+     * @return
+     */
     public int maxArea(int[] height) {
         int i = 0;
         int j = height.length - 1;
